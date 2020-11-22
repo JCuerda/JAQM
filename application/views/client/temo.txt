@@ -1,0 +1,287 @@
+<div class="col-lg-12">
+	<div class="panel panel-color panel-inverse">
+		<div class="panel-heading">
+			<h3 class="panel-title">Profile Information</h3>
+		</div>
+		<div class="panel-body">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+				magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.</p>
+			<div class="col-lg-12">
+				<div class="panel panel-color panel-inverse m-t-10">
+					<div class="panel-heading">
+						<h3 class="panel-title">Personal Details</h3>
+						<p class="panel-sub-title font-13 text-muted">Basic information about yourself.</p>
+					</div>
+					<div class="panel-body">
+						<div class="form-group">
+							<div class="col-md-4 col-sm-12 col-xs-12">
+								<label for="" class="control-label">First Name</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
+									<input type="text" id="first-name" name="first-name" class="form-control" placeholder="First Name">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12 col-xs-12">
+								<label for="" class="control-label">Last Name</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
+									<input type="text" id="last-name" name="last-name" class="form-control" placeholder="Last Name">
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-12 col-xs-12">
+								<label for="" class="control-label">Middle Name</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user"></i></span>
+									<input type="text" id="middle-name" name="middle-name" class="form-control" placeholder="Middle Name">
+								</div>
+							</div>
+						</div>
+						<!-- form-group -->
+
+						<div class="form-group">
+							<div class="col-md-6 col-sm-12 col-xs-12">
+								<label for="" class="control-label m-t-10">Address</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
+									<input type="text" id="address" name="address" class="form-control" placeholder="Address">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12 col-xs-12">
+								<label for="" class="control-label m-t-10">Contact Number</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa  fa-phone"></i></span>
+									<input type="text" id="contact-number" name="contact-number" class="form-control" placeholder="Contact Number">
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-12 col-xs-12">
+								<label for="" class="control-label m-t-10">Email Address</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+									<input type="text" id="email" name="email" class="form-control" placeholder="Email Address">
+								</div>
+							</div>
+						</div>
+						<!-- form-group -->
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="panel panel-color panel-inverse">
+					<div class="panel-heading">
+						<h3 class="panel-title">Educational Attainment</h3>
+						<p class="panel-sub-title font-13 text-muted">Educational attainments</p>
+					</div>
+					<div class="panel-body">
+
+						<div class="form-group">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<label for="" class="control-label">Primary Education</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-mortar-board"></i></span>
+									<input type="text" id="elem-edu" name="elem-edu" class="form-control" placeholder="Primary School">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12 col-sm-12 col-xs-12 m-t-10">
+								<label for="" class="control-label">Secondary Education</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-mortar-board"></i></span>
+									<input type="text" id="sec-edu" name="sec-edu" class="form-control" placeholder="Secondary School">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-12 col-sm-12 col-xs-12 m-t-10">
+								<label for="" class="control-label">Tertiary Education</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-mortar-board"></i></span>
+									<input type="text" id="ter-edu" name="ter-edu" class="form-control" placeholder="Tertiary School">
+								</div>
+							</div>
+                        </div>
+                        
+                        <div class="form-group">
+							<div class="col-md-12 col-sm-12 col-xs-12 m-t-10">
+								<label for="" class="control-label">Course Taken</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-mortar-board"></i></span>
+                                    <!-- <input type="text" id="course" name="course" class="form-control" placeholder="Course Taken"> -->
+                                    <select name="course" id="course" class="form-control">
+                                        <option value="BSIT">Bachelor of Science in Information Technology</option>
+                                    </select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-color panel-inverse">
+					<div class="panel-heading">
+						<h3 class="panel-title">Upload Section</h3>
+					</div>
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+						<form action="" class="form" id="upload-form">
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<label for="" class="control-label m-t-10">Resume</label>
+								<div class="form-group">
+									<input type="file" class="filestyle" data-buttonbefore="true">
+								</div>
+							</div>
+							<div class="col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<button class="btn btn-default btn-block"><i class="fa fa-cloud-upload"></i> Upload</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="panel panel-color panel-inverse">
+					<div class="panel-heading">
+						<h3 class="panel-title">My Qualifications / Skills</h3>
+						<p class="panel-sub-title font-13 text-muted">List of Qualifications and Skills</p>
+					</div>
+					<div class="panel-body">
+						<div class="col-md-12">
+
+							<p class="text-muted m-b-10 font-13">
+								<span style="color:red;">*</span>Note: &nbsp; You can edit each qualification by clicking it.
+							</p>
+
+							<button class="btn btn-primary waves-effect waves-light m-b-10" data-toggle="modal" data-target="#qualification-modal">Add
+								Qualification</button>
+
+							<div class="list-group">
+								<button data-qualification-id="A" id="qualification" class="list-group-item waves-effect waves-light m-b-10">Cras justo odio</button>
+								<button data-qualification-id="B" id="qualification" class="list-group-item waves-effect waves-light m-b-10">Morbi leo risus</button>
+								<button data-qualification-id="C" id="qualification" class="list-group-item waves-effect waves-light m-b-10">Porta ac consectetur ac</button>
+								<button data-qualification-id="D" id="qualification" class="list-group-item waves-effect waves-light m-b-10">Vestibulum at eros</button>
+							</div> <!-- list-group -->
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-color panel-inverse">
+					<div class="panel-heading">
+						<h3 class="panel-title">Action</h3>
+					</div>
+					<div class="panel-body">
+						<button id="save-details" class="btn btn-danger btn-block"><i class="fa fa-save"></i>&nbsp;<strong>Save All Changes</strong></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div id="qualification-modal1" class="modal-jaqm">
+		<button type="button" class="close" onclick="Custombox.close();">
+			<span>&times;</span><span class="sr-only">Close</span>
+		</button>
+		<h4 class="custom-modal-title">Modal title</h4>
+		<div class="custom-modal-text">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+			standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+			type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+			remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+			Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+			Lorem Ipsum.
+		</div>
+	</div>
+
+	<!-- Panel Modal -->
+	<div id="qualification-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="QualificationModal" aria-hidden="true"
+	 style="display: none;">
+		<div class="modal-dialog">
+			<div class="modal-content p-0 b-0">
+                <form id="qualification-form">
+                    <div class="panel panel-color panel-inverse">
+                        <div class="panel-heading">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:white;">×</button>
+                            <h3 class="panel-title">Add Qualification / Skills</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="qualification-box">
+                                <div class="form-group">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <label for="" class="control-label">Qualification Description: </label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-mortar-board"></i></span>
+                                            <input type="text" id="qualification" name="qualifications[]" class="form-control" placeholder="Add new qualification / skills">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12 col-sm-12 col-xs-12 m-t-10">
+                                    <button class="btn btn-block btn-info" id="add-qualification"><i class="fa fa-plus-circle"></i> Add More</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="panel-footer">
+                            <div class="col-md-12 col-sm-12 col-xs-12 m-t-10">
+                                <button id="save-qualifications" class="btn btn-block btn-primary"><i class="fa fa-save"></i> Save Qualification</button>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </form>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div>
+    <!-- /.modal -->
+
+    
+    <!-- Panel Modal -->
+	<div id="edit-qualification-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="EditQualification" aria-hidden="true"
+	 style="display: none;">
+		<div class="modal-dialog">
+			<div class="modal-content p-0 b-0">
+                <form id="qualification-form">
+                    <div class="panel panel-color panel-inverse">
+                        <div class="panel-heading">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:white;">×</button>
+                            <h3 class="panel-title">Edit Qualification</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div id="qualification-box">
+                                <div class="form-group">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <label for="" class="control-label">Qualification Description: </label>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-mortar-board"></i></span>
+                                            <input type="text" id="qualification" name="qualification" class="form-control" placeholder="Add new qualification / skills">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-footer">
+                            <div class="col-md-12 col-sm-12 col-xs-12 m-t-10">
+                                <button id="save-qualifications" class="btn btn-block btn-primary"><i class="fa fa-save"></i> Save Qualification</button>
+                                
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </form>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div>
+    <!-- /.modal -->
+
+
+
+
+</div>
